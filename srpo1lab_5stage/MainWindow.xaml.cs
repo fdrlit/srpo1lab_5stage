@@ -24,5 +24,16 @@ namespace srpo1lab_5stage
         {
             InitializeComponent();
         }
+        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Кнопка нажата");
+        }
+        
+        private void myTextBox_MouseEnter(object sender, MouseEventArgs e)
+        {
+            
+            myTextBox.Background = Brushes.LightBlue;
+        }
     }
 }
